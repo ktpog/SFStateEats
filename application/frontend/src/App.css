@@ -1,0 +1,255 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ul {
+  list-style-type: none;
+  line-height: 5;
+  overflow: hidden;
+  background-color: rgb(241, 241, 241);
+}
+
+li {
+  margin-right: 20px;
+  float: right;
+}
+
+.bar {
+  width: 110%;
+  height:100%;
+  font-size: x-large;
+  text-indent: 20px;
+  position: absolute;
+  display: flex;
+  margin-right: 0px;
+}
+
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+.navbar
+{
+   -webkit-backface-visibility: hidden;
+}
+
+.topbar {
+  background-color: #330033;
+}
+
+.customcard{
+  width: 22rem;
+  margin-top: 30px!important;
+  margin: 50px
+}
+
+.menucard{
+  width: 16rem;
+  height: 10rem;
+  margin: 20px
+}
+
+.seachfilterbutton{
+  margin-left: 12%;
+  height: 109%;
+  background-color: #e0b057;
+  color: black;
+
+}
+
+.btn-outline-danger {
+  color: #212529;
+  border-color: #212529;
+  background-color: #ff7373;
+}
+
+.carousel .item img {
+  max-height: 76px!important;
+  min-width: auto;
+}
+
+
+.padding{
+  padding: 3%;
+}
+
+.paddingleft{
+  padding-left: 5%;
+}
+
+.reviewcard{
+  width: 100%;
+  margin-top: 5px;
+  padding: 20px;
+  text-align: left;
+}
+
+.commentcard{
+  width: 100%;
+  height: auto;
+  margin-top: 5px;
+  padding: 20px;
+  text-align: left;
+}
+
+.carousel-item .img-fluid {
+  position:relative;
+  width:100%;
+  height:100%;
+}
+
+.FooterLogo {
+  width: 30%;
+}
+
+.Application-Signin{
+  font-family: sans-serif;
+  text-align: center;
+  border-style: solid;
+}
+
+.App-Signin-header{
+  font-family: sans-serif;
+  color: yellow;
+  background-color: purple;
+  font-size: 30px;
+}
+
+.App-Signin-username{
+  font-weight: bold;
+}
+
+.App-Signin-password{
+  font-weight: bold;
+}
+
+input[type = submit]{
+  background-color: purple;
+  color: white;
+  border-style : solid;
+  border-color: black;
+  height: 35px;
+  width: 120px;
+  font: sans-serif;
+  text-shadow: none;
+  border-radius: 7px;
+  font-size: 20px;
+}
+
+.App-SignupClick-link{
+  font-size: 24px;
+}
+
+.App-ForgotPasswordClick-link{
+  font-size: 24px;
+}
+
+.myClass > a {
+  background-color:#f7f7f7;
+  color: black;
+  text-decoration: none !important
+}
+
+
+#footer {
+  background-color: #330033;
+  padding: 20px 20px 100px;          /* Footer height */
+  position: static;
+  bottom: 0;
+  width: 100%;
+}
+section {
+  min-height: 80vh; /* minus the height of the footer */
+}
+
+.navbar .login-btn {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+}
+
+#navBarSearchForm input[type=text]{
+  font-size: x-large;
+  width: 80%;
+}
+
+.myBtn {
+	width:12%;
+  padding: 9px;
+}
+
+
+.card-img-top {
+  width: 100%;
+  height: 10vw;
+  object-fit: cover;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.loading{
+  width: 25%;
+}

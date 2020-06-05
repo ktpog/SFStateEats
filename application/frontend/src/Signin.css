@@ -1,0 +1,43 @@
+.Application-Signin{
+  font-family: sans-serif;
+  text-align: center;
+
+}
+
+.App-Signin-header{
+  font-family: sans-serif;
+  color: yellow;
+  background-color: purple;
+  font-size: 30px;
+  width: 1600px;
+  height: 55px;
+}
+
+.App-Signin-username{
+  font-weight: bold;
+}
+
+.App-Signin-password{
+  font-weight: bold;
+}
+
+input[type = submit]{
+  background-color: purple;
+  color: white;
+  border-style : solid;
+  border-color: black;
+  height: 35px;
+  width: 120px;
+  font: sans-serif;
+  text-shadow: none;
+  border-radius: 7px;
+  font-size: 20px;
+}
+
+.App-SignupClick-link{
+  font-size: 24px;
+}
+
+.App-ForgotPasswordClick-link{
+  font-size: 24px;
+}

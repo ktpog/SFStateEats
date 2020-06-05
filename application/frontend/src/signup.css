@@ -1,0 +1,29 @@
+.signup {
+  text-align: center;
+}
+.signupForm {
+  text-align: center;
+  padding-top: 100px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+
+.signupDiv {
+  padding-top: 2px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+.signupButton {
+  justify-content: center;
+  padding-top: 5px;
+  padding-right: 6px;
+  padding-bottom: 5px;
+  padding-left: 6px;
+  color: #184c5a;
+}
+.App-link {
+  color: #184c5a;
+  font-size: 50px;
+}
